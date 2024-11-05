@@ -9,8 +9,8 @@ import json
 import os
 import ssl
 
-url = 'https://suheonchoi-azureml.eastus.inference.ml.azure.com/score'
-api_key = 'xX20kmKXq1vKZDTINHkLkB8dpEgj5RdI'
+url = ''
+api_key = ''
 if not api_key:
     raise Exception("A key should be provided to invoke the endpoint")
 headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key)}
